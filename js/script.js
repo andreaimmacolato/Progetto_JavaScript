@@ -73,6 +73,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     resetButton.addEventListener('click', () => {
         count = 0;
+        startValueInput.value = '';
+        errorMessage.style.display = 'none'; 
         updateCounter();
     });
 
