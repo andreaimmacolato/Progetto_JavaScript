@@ -80,5 +80,5 @@ The project includes meta tags for the Open Graph protocol, which improve social
 <meta property="og:description" content="Un contatore interattivo che consente agli utenti di impostare, incrementare e decrementare i valori utilizzando JavaScript.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://andreaimmacolato.github.io/Progetto_JavaScript/">
-<meta property="og:image" content="https://andreaimmacolato.github.io/Progetto_JavaScript/img/counter.png">
+<meta property="og:image" content="https://andreaimmacolato.github.io/Progetto_JavaScript/img/counter.jpg">
 ```
