@@ -45,9 +45,9 @@ git clone https://github.com/andreaimmacolato/Progetto_JavaScript.git
 ```javascript
 
 const errorMessage = document.createElement('div');
-errorMessage.style.color = 'red';  // Red color for the error message
-errorMessage.style.display = 'none';  // Initially hidden
-errorMessage.textContent = 'Please enter a valid number';
+errorMessage.style.color = '#ff7700';  
+errorMessage.style.display = 'none'; 
+errorMessage.textContent = 'Inserisci un numero valido';
 counterContainer.appendChild(errorMessage);
 
 function updateCounter() {
@@ -76,9 +76,9 @@ The project includes meta tags for the Open Graph protocol, which improve social
 
 ```html
 
-<meta property="og:title" content="Counter">
-<meta property="og:description" content="An interactive counter that allows users to set, increment, and decrement values using JavaScript.">
+<meta property="og:title" content="Counter di Andrea Immacolato">
+<meta property="og:description" content="Un contatore interattivo che consente agli utenti di impostare, incrementare e decrementare i valori utilizzando JavaScript.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://yourwebsite.com/counter">
-<meta property="og:image" content="https://yourwebsite.com/images/counter-thumbnail.png">
+<meta property="og:url" content="https://andreaimmacolato.github.io/Progetto_JavaScript/">
+<meta property="og:image" content="https://andreaimmacolato.github.io/Progetto_JavaScript/img/counter.png">
 ```
