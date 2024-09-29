@@ -28,7 +28,7 @@ The project consists of the following main files:
 Clone or download the repository:
 
 ```bash
-git clone https://github.com/your-username/interactive-counter.git
+git clone https://github.com/andreaimmacolato/Progetto_JavaScript.git
 ```
 
 ## Usage
