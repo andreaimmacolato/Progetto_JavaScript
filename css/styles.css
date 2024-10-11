@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #ff7700;
+    --secondary-color: #696969;
+    --text-color: white;
+    --border-radius: 50px;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -5,18 +13,16 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('../img/background.png'); 
-    background-size: cover; 
-    background-position: center;
-    color: white;
+    background: url("img/background.png") center/cover no-repeat;
+    color: var(--text-color);
 }
 
 .counter-container {
     text-align: center;
-    background-color: #696969;
+    background-color: var(--secondary-color);
     padding: 30px;
     border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow);
 }
 
 #counter {
@@ -24,33 +30,33 @@ body {
     margin: 20px 0;
 }
 
-input[type="text"] {
+input[type="text"],
+button {
     padding: 10px;
     font-size: 1.2em;
-    margin-top: 10px;
-    border: 1px solid #ccc;
-    border-radius: 50px;
+    border: none;
+    border-radius: var(--border-radius);
     text-align: center;
+    margin: 5px;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
 }
 
 input[type="text"]:focus {
-    outline: 2px solid #ff7700;
+    outline: 2px solid var(--primary-color);
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 1.2em;
-    margin: 5px;
-    border: none;
-    background-color: #ff7700;
-    color: white;
-    border-radius: 50px;
-    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     transition: background-color 0.3s;
+    cursor: pointer; 
 }
 
 button:hover {
-    background-color: #ff7700a0;
+    background-color: rgba(255, 119, 0, 0.7);
 }
 
 #reset-btn {
@@ -58,10 +64,11 @@ button:hover {
 }
 
 #reset-btn:hover {
-    background-color: #000000;
+    background-color: black;
 }
 
 label {
     margin-top: 40px;
     font-size: 1.2em;
+    display: block;
 }
